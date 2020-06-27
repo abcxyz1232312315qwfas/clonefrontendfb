@@ -29,10 +29,38 @@
 	<div id="form3" class="bodyx">
 		<input placeholder="Họ" type="text" id="namebox" name="firstname" />  <input placeholder="Tên" type="text" id="namebox" name="lastname" />
 		<input placeholder="Số điện thoại hoặc email" type="text" id="mailbox" name="email" />
-		<input placeholder="Mật khẩu mới" type="password" id="mailbox" name="password" />
+		<input placeholder="Mật khẩu mới" id="mailbox" type="password" cname="password" />
 		<br><br>
 		Ngày sinh<br>
-		<input type="date" id="namebox"/><br><br>
+			<select name="day" id="selectday">
+				<option value="#">1</option>
+				<option value="#">2</option>
+				<option value="#">3</option>
+				<option value="#">4</option>
+				<option value="#">5</option>
+				<option value="#">6</option>
+				<option value="#">...</option>
+			</select>
+			<select name="month" id="selectmonth">
+				<option value="#">Tháng 1</option>
+				<option value="#">Tháng 2</option>
+				<option value="#">Tháng 3</option>
+				<option value="#">Tháng 4</option>
+				<option value="#">Tháng 5</option>
+				<option value="#">Tháng 6</option>
+				<option value="#">...</option>
+			</select>
+			<select name="year" id="selectday">
+				<option value="#">1995</option>
+				<option value="#">1996</option>
+				<option value="#">1997</option>
+				<option value="#">1998</option>
+				<option value="#">1999</option>
+				<option value="#">2000</option>
+				<option value="#">...</option>
+			</select>
+		<br>
+		<br>
 		Giới tính<br>
 		<input type="radio" name="sex" value="male"/> Nam  <input type="radio" name="sex" value="female"/> Nữ <input type="radio" name="sex" value="female"/> Tùy Chỉnh<br><br>
 		<div id="form4">
